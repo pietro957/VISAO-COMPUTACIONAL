@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import pyautogui
 import streamlit as st
 from ultralytics import YOLO
 
