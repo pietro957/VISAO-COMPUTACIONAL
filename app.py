@@ -4,7 +4,7 @@ import streamlit as st
 from ultralytics import YOLO
 
 # Configurações de segurança do PyAutoGUI (jogue o mouse para o canto da tela para travar)
-pyautogui.FAILSAFE = True
+.FAILSAFE = True
 
 st.set_page_config(
     page_title="Controle de Mouse por Visão Computacional", page_icon="🖱️", layout="centered"
@@ -97,7 +97,7 @@ if st.session_state.executando:
 
                     # Move o mouse via PyAutoGUI
                     try:
-                        pyautogui.moveTo(curr_x, curr_y, duration=0.0)
+                        .moveTo(curr_x, curr_y, duration=0.0)
                     except Exception:
                         pass
 
